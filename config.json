@@ -1,0 +1,50 @@
+{
+  "ui": {
+    "language": "en"
+  },
+  "network": {
+    "name": "Anubis",
+    "chain_id": 6714,
+    "rpc_urls": [
+      "https://rpc.anubispace.org",
+      "https://rpc2.anubispace.org"
+    ],
+    "native_symbol": "ANB"
+  },
+  "query": {
+    "start_time": "2026-11-11T18:00:00+08:00",
+    "end_time": "2026-11-11T19:00:00+08:00",
+    "start_block": null,
+    "end_block": null,
+    "scan_transactions": true,
+    "from_addresses": [],
+    "to_addresses": [
+      "0x11b10C9827c5B7071E96fcAa143B4e6E86b17c69"
+    ],
+    "any_addresses": [],
+    "method_selectors": [],
+    "log_filters": [
+      {
+        "address": "0x9d46cb414e76237d3b83e2a1630481038368f217",
+        "topics": [
+          "0x889d364b5102aee044ff370e2e6a836584e5618a16dce4f5b191459cf3903e58",
+          null,
+          null,
+          "0x00000000000000000000000011b10c9827c5b7071e96fcaa143b4e6e86b17c69"
+        ]
+      }
+    ]
+  },
+  "options": {
+    "request_timeout": 20,
+    "block_batch": 50,
+    "full_block_batch": 5,
+    "receipt_batch": 50,
+    "rpc_retries": 2,
+    "concurrency": 6,
+    "log_batch": 2000,
+    "max_blocks": 5,
+    "max_results": 100000,
+    "confirmations": 0
+  }
+}

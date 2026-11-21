@@ -1,0 +1,9 @@
+.idea/
+.venv/
+__pycache__/
+*.py[cod]
+result/
+hs_err_pid*.log
+replay_pid*.log
+config - *.json
+.env
